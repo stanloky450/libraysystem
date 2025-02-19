@@ -55,7 +55,7 @@ const BookCover = ({
           className="rounded-sm object-fill"
         />
 
-        {/* <Image
+        <Image
           // path={coverImage}
           src= {coverImage}
           alt="Book cover"
@@ -64,7 +64,7 @@ const BookCover = ({
         //   urlEndpoint={config.env.imagekit.urlEndpoint}
         //   loading="lazy"
         //   lqip={{ active: true }}
-        /> */}
+        /> 
       </div>
     </div>
   );

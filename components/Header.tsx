@@ -26,13 +26,14 @@ const Header = ({session} : {session: Session}) => {
             )}>
             Library
           </Link>
+          </li>
           <li>
             <Link href='/my-profile'>
             <Avatar>
             <AvatarFallback className="bg-amber-100">{getInitials(session?.user?.name || "IN")}</AvatarFallback>
             </Avatar>
             </Link>
-          </li>
+         
         </li>
       </ul>
     </main>
